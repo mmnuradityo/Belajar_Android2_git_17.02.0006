@@ -7,25 +7,41 @@
     android:orientation="vertical"
     android:layout_margin="20dp"
     android:gravity="center"
-    tools:context="com.project_n.splashscreen.AddUser">
+    tools:context="com.project_n.splashscreen.activity.AddUser">
 
     <EditText
+        android:singleLine="true"
+        android:hint="Nama"
+        android:id="@+id/etNama"
+        android:layout_margin="5dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="User Name"
-        android:inputType="text"
-        android:id="@+id/ET_AddUserName"/>
+        android:layout_height="wrap_content" />
     <EditText
+        android:singleLine="true"
+        android:hint="NIM"
+        android:id="@+id/etNim"
+        android:layout_margin="5dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:layout_marginTop="10dp"
-        android:id="@+id/ET_AddUserPass"/>
+        android:layout_height="wrap_content" />
+    <EditText
+        android:singleLine="true"
+        android:hint="Kejuruan"
+        android:id="@+id/etKejuruan"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:singleLine="true"
+        android:hint="Alamat"
+        android:id="@+id/etAlamat"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <Button
+        android:id="@+id/btInsert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/BtnAddUser"
-        android:layout_marginTop="10dp"
-        android:text="Add User"/>
+        android:text="Insert"/>
+
 </LinearLayout>

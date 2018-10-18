@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SplashScreen.iml" filepath="$PROJECT_DIR$/SplashScreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Belajar_Android2_git_17.02.0006.iml" filepath="$PROJECT_DIR$/Belajar_Android2_git_17.02.0006.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

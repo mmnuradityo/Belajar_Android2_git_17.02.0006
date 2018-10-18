@@ -17,17 +17,16 @@
         android:layout_gravity="center" />
 
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/addUser"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Add User"
-        android:onClick="AddUser"/>
+        android:text="Add User" />
+
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/listUser"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="View User"
-        android:onClick="ViewUser"/>
+        android:text="List User" />
 
     <Button
         android:layout_width="match_parent"
@@ -41,4 +40,9 @@
         android:layout_marginTop="10dp"
         android:text="Pindah Fragment"
         android:onClick="PindahFragment"/>
+    <EditText
+        android:id="@+id/inputText"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
